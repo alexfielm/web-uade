@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi playlist</title>
+</head>
+<body id="bodyPlaylist">
+    <center>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./sobreMi.html">Sobre mi</a></li>
+                <li><a href="./trivia.html">Trivia</a></li>
+                <li><a href="./playlist.html">Playlist</a></li>
+            </ul>
+        </nav>
+    </section><br><br>
+    <section id="botonTexto">
+        <h1>Bienvenido a mi playlist!</h1>
+        <p>Esta Playlist está pensada para estudiar, tenemos sesiones de 10 minutos de estudio y una musica entre sesiones :)</p>
+    </section><br><br>
+    <section>
+        <table style="background-color: rgb(167, 167, 13)">
+            <thead>
+                <tr>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Media</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <h3>Primera sesión de estudio</h3>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="./playlist/lofi1.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Primera descanso</h3>
+                    </td>
+                    <td>
+                        <video width= "400px" height= "250px" controls>
+                            <source src="./playlist/video1.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Segunda sesión de estudio</h3>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="./playlist/lofi2.mp3" type="audio/mpeg">
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Segundo descanso</h3>
+                    </td>
+                    <td>
+                        <video width= "400px" height= "250px" controls>
+                            <source src="./playlist/video2.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    </center>
+</body>
+</html>
