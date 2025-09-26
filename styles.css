@@ -85,8 +85,7 @@ table{
 
 #bodySobreMi{
     background-image: url("img/backSobreMi.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
 }
 
