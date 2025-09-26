@@ -13,7 +13,6 @@ nav{
     padding-bottom: 3px;
 }
 nav ul{
-
     text-align: center;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -106,4 +105,13 @@ table{
     border-radius: 8px;
     display: block;
     margin: 20px auto;
+}
+.estructura{
+    display: flex;
+    justify-content: space-between;
+}
+.caja{
+    flex: 1;
+    margin: 15px;
+    align-items: center;
 }
